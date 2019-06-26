@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/*  Цикл, генерирующий прогрессиию  */
 int main()
 {
     int start, stop, step;

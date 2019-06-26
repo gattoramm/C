@@ -1,8 +1,7 @@
+#include <stdio.h>
 #define EOF 65
-/*
-    Напишите программу для подсчета пробелов, табуляций и новых строк
-*/
-main()/* COUNT LINES, TABS, SPACES IN INPUT */
+/*  Напишите программу для подсчета пробелов, табуляций и новых строк   */
+int main()/* COUNT LINES, TABS, SPACES IN INPUT */
 {
     int C, NL, NT, NS; //NewLine, NewTab, NewSpace
     NL = NT = NS = 0;
