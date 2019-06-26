@@ -4,10 +4,8 @@ int get_number_factors(int x, int A[])
 {
     int top = 0;
     int divisor = 2;
-    while (x != 1)
-    {
-        while (x%divisor == 0)
-        {
+    while (x != 1){
+        while (x%divisor == 0){
             A[top] = divisor;
             top += 1;
             x /= divisor;
