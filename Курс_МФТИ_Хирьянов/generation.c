@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/*  Генератор последовательности    */
 int main()
 {
     int start, stop, step;
@@ -9,8 +9,7 @@ int main()
 
     int sign = (step > 0)? +1: -1;
     int x = start;
-    while(sign*x < sign*stop)
-    {
+    while(sign * x < sign * stop){
         printf("x = %d\n", x);
         x += step;
     }

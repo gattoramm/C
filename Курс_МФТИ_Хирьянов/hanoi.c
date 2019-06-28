@@ -1,19 +1,17 @@
 #include <stdio.h>
-
+/*  Ханойская башня */
 void hanoi(int n, int i, int k);
 
 int main(int args, char* argv[])
 {
     hanoi(3, 1, 2);
-
     return 0;
 }
 
 void hanoi(int n, int i, int k)
 {
     if (n == 1) printf("Move disk %d from pin %d to %d.\n", n, i, k);
-    else
-    {
+    else{
         int tmp = 6 - i - k;
         hanoi(n-1, i, tmp);
         printf("Move disk %d from pin %d to %d.\n", n, i, k);
